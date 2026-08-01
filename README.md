@@ -92,7 +92,8 @@ jupyter notebook notebooks/analyse_impact.ipynb   # exploration interactive
 
 ### Rétention du panel
 
-![Rétention du panel](reports/figures/retention_panel.png)
+### Rétention du panel
+![Rétention du panel](./reports/figures/retention_du_panel.png)
 
 ## Limites méthodologiques à garder en tête
 
