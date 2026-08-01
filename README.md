@@ -5,20 +5,20 @@
 ![Statsmodels](https://img.shields.io/badge/statsmodels-DID%20regression-1F4E5F)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Pipeline complet d'évaluation d'impact — de la génération d'un panel de suivi à la mesure
+Pipeline complet d'évaluation d'impact de la génération d'un panel de suivi à la mesure
 statistique de l'effet net d'un projet de production maraîchère combinant **formation
 technique au maraîchage**, **démonstrations culinaires / nutrition** et **sensibilisation
 hygiène-assainissement**, dans la région de Sikasso (Mali).
 
 > ⚠️ **Jeu de données synthétique.** Ce dépôt a été conçu comme démonstration méthodologique
 > et technique (design d'évaluation, gestion de panel, calcul DID, régression, visualisation).
-> Les chiffres ne décrivent pas un projet réel — remplacez `data/raw/` par des données de
+> Les chiffres ne décrivent pas un projet réel remplacez `data/raw/` par des données de
 > terrain pour un usage opérationnel.
 
 ## Design d'évaluation
 
 - **Quasi-expérimental à villages appariés** : 4 paires de villages (1 Traitement / 1 Contrôle
-  par cercle — Sikasso, Bougouni, Koutiala, Kadiolo).
+  par cercle: Sikasso, Bougouni, Koutiala, Kadiolo).
 - **Panel de 400 ménages** suivis sur **5 vagues annuelles** (2022 = baseline, 2026 = endline),
   avec gestion réaliste de l'attrition (ménages « perdus de vue »).
 - **Méthode d'estimation de l'impact** : double différence (DID) descriptive, confirmée par une
@@ -95,19 +95,19 @@ jupyter notebook notebooks/analyse_impact.ipynb   # exploration interactive
 ## Limites méthodologiques à garder en tête
 
 - **Hypothèse des tendances parallèles** : la validité causale du DID suppose que Traitement et
-  Contrôle auraient évolué de façon similaire en l'absence du projet — à tester (ex. tendances
+  Contrôle auraient évolué de façon similaire en l'absence du projet à tester (ex. tendances
   pré-baseline si disponibles) avant toute conclusion définitive.
 - **Attrition différentielle** : le taux de perte de vue est légèrement plus élevé en Contrôle ;
   une analyse de sensibilité (bornes de Lee, pondération inverse de probabilité) est recommandée.
 - **Randomisation absente** : les villages n'ont pas été assignés aléatoirement au traitement
-  (design quasi-expérimental) — envisager un appariement sur score de propension (PSM) en
+  (design quasi-expérimental) envisager un appariement sur score de propension (PSM) en
   complément si le risque de sélection est jugé important.
 - **Données synthétiques** : les résultats ci-dessus servent à valider le pipeline technique, pas
   à documenter un impact réel.
 
 ## Auteur
 
-**Amadou Bamia (Ando)** — Senior MEAL & ICT4D Specialist, fondateur de **Kanaga Impact Lab**
+**Amadou Bamia (Ando)**  | Senior MEAL & ICT4D Specialist**
 (Bamako, Mali). Conseil en systèmes de suivi-évaluation et de données pour les organisations de
 développement au Sahel.
 
