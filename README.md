@@ -87,10 +87,7 @@ jupyter notebook notebooks/analyse_impact.ipynb   # exploration interactive
 ![Tendances des indicateurs clés](reports/figures/tendances_indicateurs_cles.png)
 
 ### Effet net du projet par indicateur
-
-![Effets DID par indicateur](reports/figures/effets_did_par_indicateur.png)
-
-### Rétention du panel
+![Effet net](./reports/figures/effets_did_par_indicateur.png)
 
 ### Rétention du panel
 ![Rétention du panel](./reports/figures/retention_du_panel.png)
