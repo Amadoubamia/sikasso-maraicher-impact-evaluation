@@ -1,4 +1,4 @@
-# Évaluation d'impact — Projet de production maraîchère, région de Sikasso (Mali)
+# Évaluation d'impact: Projet de production maraîchère, région de Sikasso (Mali)
 
 ![Python](https://img.shields.io/badge/Python-3.12-1F4E5F)
 ![Pandas](https://img.shields.io/badge/pandas-2.x-C0714A)
