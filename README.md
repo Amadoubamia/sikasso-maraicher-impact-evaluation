@@ -36,8 +36,6 @@ hygiène-assainissement**, dans la région de Sikasso (Mali).
 ```
 sikasso-maraicher-impact-evaluation/
 ├── src/
-│   ├── generate_data.py        # génère le panel synthétique (menages/panel/formations)
-│   └── impact_analysis.py      # DID descriptif + régression clusterisée + graphiques
 ├── data/
 │   ├── raw/                    # menages.csv, panel.csv, formations.csv
 │   └── processed/              # classeur Excel livrable (multi-onglets, formules DID)
